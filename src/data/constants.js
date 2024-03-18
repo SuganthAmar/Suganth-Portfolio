@@ -30,7 +30,7 @@ export const skills = [
       {
         name: "Python",
         image:
-          "https://w7.pngwing.com/pngs/234/329/png-transparent-python-logo-thumbnail.png",
+          "https://www.bing.com/th?id=OIP.Xm04EMVRlrlC3vSti_MHYQHaHZ&w=108&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
       },
       {
         name: "Bash",
@@ -45,7 +45,7 @@ export const skills = [
       {
         name: "C++",
         image:
-          "https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-thumbnail.png",
+          "https://th.bing.com/th?id=OIP.YU6BvZKvxivoEnvqxeG5rwAAAA&w=80&h=80&c=1&vt=10&bgcl=81d81d&r=0&o=6&dpr=1.3&pid=5.1",
       },
     ],
   },
@@ -230,7 +230,7 @@ export const skills = [
       {
         name: "Affiliate marketing",
         image:
-          "https://w7.pngwing.com/pngs/781/441/png-transparent-affiliate-marketing-marketing-strategy-affiliate-network-marketing-angle-text-logo-thumbnail.png",
+          "https://th.bing.com/th?id=OIP.KBCS25CbttNfzRdMtfdeGQHaEc&w=322&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
       },
       {
         name: "Email Marketing",
@@ -260,7 +260,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://th.bing.com/th?id=OIP.1WNi-lKSgjTSgRUnQLigCgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
       },
       {
         name: "GitHub",
@@ -315,7 +315,7 @@ export const skills = [
       {
         name: "Miro",
         image:
-          "https://w7.pngwing.com/pngs/613/411/png-transparent-miro-app-logo-tech-companies.png",
+          "https://www.bing.com/th?id=OIP.n91HfuLsoOe4w4fNR-lFuwHaHU&w=208&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
       },
       {
         name: "Linux",
