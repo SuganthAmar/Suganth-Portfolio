@@ -12,6 +12,12 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 import StarCanvas from "../canvas/Stars";
+import ProfileLink from "./ProfileLink";
+import LeetCodeIcon from "../../Icons/leetcode.webp";
+import CodingNinjasIcon from "../../Icons/Coding_Ninjas_logo.png";
+import SkillRackIcon from "../../Icons/skillrack.png";
+import CodeChefIcon from "../../Icons/codechef.png";
+
 
 const HeroContainer = styled.div`
   display: flex;
@@ -214,7 +220,24 @@ const HeroBg = styled.div`
     padding: 0 0px;
   }
 `;
+const LogosContainer = styled.div`
+  display: flex;
+  flex-direction: row; /* Display the icons in a row */
+  align-items: center; /* Center the icons vertically */
+  // justify-content: center; /* Center the icons horizontally */
+  gap: 40px; /* Adjust the gap between icons as needed */
+  margin-top: 20px; /* Add margin top */
+`;
 
+const Icon = styled.img`
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px; /* Adjust the margin between icons as needed */
+  filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 1)); /* Apply glow effect */
+`;
+const IconLink = styled.a`
+  text-decoration: none;
+`;
 const Hero = () => {
   return (
     <div id="About">
@@ -251,11 +274,25 @@ const Hero = () => {
               <ResumeButton href={Bio.resume} target="_blank">
                 Check Resume
               </ResumeButton>
+            <LogosContainer>
+            <IconLink href={Bio.leetcode} target="_blank">
+                  <Icon src={LeetCodeIcon} alt="LeetCode" />
+                </IconLink>
+                <IconLink href={Bio.codingninjas} target="_blank">
+                  <Icon src={CodingNinjasIcon} alt="Coding Ninjas" />
+                </IconLink>
+                <IconLink href={Bio.skillrack} target="_blank"> 
+                  <Icon src={SkillRackIcon} alt="SkillRack" />
+                </IconLink>
+                <IconLink href={Bio.codechef} target="_blank">
+                  <Icon src={CodeChefIcon} alt="CodeChef" />
+                </IconLink>
+            </LogosContainer>
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Suganth A" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
