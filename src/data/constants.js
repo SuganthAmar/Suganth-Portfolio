@@ -357,7 +357,7 @@ export const experiences = [
   {
     id: 1,
     img: "https://imgs.search.brave.com/w0XUwqlGnRko7-Dd0l1VmVme60vl38JLAYrG1R2Pb6Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2UwL0Npc2NvX2Fj/YWRlbXlfbG9nby5z/dmc.svg",
-    role: "Virtual CCNA Intern",
+    role: "Virtual Intern",
     company: "Cisco",
     date: "2 Jun 2023",
     desc: "Cybersecurity Essentials (Cisco Networking Academy): Completed comprehensive training in cybersecurity essentials, proficient in describing cybercriminal tactics and defense strategies, understanding principles of confidentiality, integrity, and availability, and familiar with technologies and procedures to safeguard network components. Introduction to Packet Tracer (Cisco Networking Academy): Successfully finished training in Packet Tracer, gaining proficiency in network simulation and configuration, essential for understanding network protocols and troubleshooting.",
@@ -427,7 +427,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Chap-App",
+    title: "Chat-App",
     date: "Jan 2024 - Feb 2024",
     description:
       " Developed a real-time chat application using React JS for the frontend and Appwrite for the backend services. Appwrite was utilized for its robust authentication, database, and real-time capabilities, enabling seamless communication between users. The application allows users to send and receive messages instantly, with features such as message deletion and real-time updates",
