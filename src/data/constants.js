@@ -18,7 +18,7 @@ export const Bio = {
   facebook: "https://www.facebook.com/suganth.suganth.96155",
   leetcode:"https://leetcode.com/suganth_a/",
   codingninjas:"https://www.codingninjas.com/studio/profile/35c931c7-82fb-4623-8198-c213319167b8",
-  codechef:"https://www.codechef.com/users/asuganth2003",
+  codechef:"https://www.codechef.com/users/suganth_a",
   skillrack:"https://www.skillrack.com/faces/resume.xhtml?id=383907&key=68e4dd3e80492c02eeee4d50352bfcb313593562",
   whatsapp: "https://wa.me/qr/LOLIRUKSAC5JP1"
 };
