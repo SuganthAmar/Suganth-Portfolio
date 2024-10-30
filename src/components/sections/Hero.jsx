@@ -18,7 +18,6 @@ import CodingNinjasIcon from "../../Icons/Coding_Ninjas_logo.png";
 import SkillRackIcon from "../../Icons/skillrack.png";
 import CodeChefIcon from "../../Icons/codechef.png";
 
-
 const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -36,6 +35,7 @@ const HeroContainer = styled.div`
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
+
 const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
@@ -48,6 +48,7 @@ const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
+
 const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
@@ -60,6 +61,7 @@ const HeroLeftContainer = styled.div`
     align-items: center;
   }
 `;
+
 const HeroRightContainer = styled.div`
   width: 100%;
   order: 2;
@@ -168,19 +170,18 @@ const ResumeButton = styled.a`
   font-weight: 600;
   font-size: 20px;
 
-     &:hover {
-        transform: scale(1.05);
+  &:hover {
+    transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
+    box-shadow: 20px 20px 60px #1f2634;
     filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+  color: white;
 `;
 
 const Img = styled.img`
@@ -220,11 +221,11 @@ const HeroBg = styled.div`
     padding: 0 0px;
   }
 `;
+
 const LogosContainer = styled.div`
   display: flex;
   flex-direction: row; /* Display the icons in a row */
   align-items: center; /* Center the icons vertically */
-  // justify-content: center; /* Center the icons horizontally */
   gap: 40px; /* Adjust the gap between icons as needed */
   margin-top: 20px; /* Add margin top */
 `;
@@ -233,11 +234,13 @@ const Icon = styled.img`
   width: 40px; /* Adjust the width as needed */
   height: auto;
   margin-bottom: 10px; /* Adjust the margin between icons as needed */
-  filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 1)); /* Apply glow effect */
+  filter: ${({ theme }) => `brightness(0) invert(1) drop-shadow(0 0 10px ${theme.primary})`}; /* Apply theme-colored glow */
 `;
+
 const IconLink = styled.a`
   text-decoration: none;
 `;
+
 const Hero = () => {
   return (
     <div id="About">
@@ -274,25 +277,25 @@ const Hero = () => {
               <ResumeButton href={Bio.resume} target="_blank">
                 Check Resume
               </ResumeButton>
-            <LogosContainer>
-            <IconLink href={Bio.leetcode} target="_blank">
+              <LogosContainer>
+                <IconLink href={Bio.leetcode} target="_blank">
                   <Icon src={LeetCodeIcon} alt="LeetCode" />
                 </IconLink>
                 <IconLink href={Bio.codingninjas} target="_blank">
                   <Icon src={CodingNinjasIcon} alt="Coding Ninjas" />
                 </IconLink>
-                <IconLink href={Bio.skillrack} target="_blank"> 
+                <IconLink href={Bio.skillrack} target="_blank">
                   <Icon src={SkillRackIcon} alt="SkillRack" />
                 </IconLink>
                 <IconLink href={Bio.codechef} target="_blank">
                   <Icon src={CodeChefIcon} alt="CodeChef" />
                 </IconLink>
-            </LogosContainer>
+              </LogosContainer>
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
-                <Tilt>
-                  <Img src={HeroImg} alt="Suganth A" />
+                <Tilt options={{ max: 25, scale: 1, speed: 400 }}>
+                  <Img src={HeroImg} alt="Profile" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
@@ -304,3 +307,4 @@ const Hero = () => {
 };
 
 export default Hero;
+  
