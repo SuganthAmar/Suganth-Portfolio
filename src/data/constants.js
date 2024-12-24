@@ -12,7 +12,7 @@ export const Bio = {
   "I'm Suganth, a motivated individual with a passion for learning and a knack for taking on challenges. Dedicated to delivering high-quality results, I embrace a positive attitude and a growth mindset. Ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/SuganthAmar",
   resume:
-    "https://suganth-projects.s3.amazonaws.com/Suganth_Resume+(1).pdf",
+    "https://suganth-portfolio.s3.us-east-1.amazonaws.com/CIT_SUGANTH_IT.pdf",
   linkedin: "https://www.linkedin.com/in/suganth-a-a0144624b/",
   insta: "https://www.instagram.com/suganth._.tg/",
   facebook: "https://www.facebook.com/suganth.suganth.96155",
@@ -356,7 +356,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://imgs.search.brave.com/w0XUwqlGnRko7-Dd0l1VmVme60vl38JLAYrG1R2Pb6Q/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2UwL0Npc2NvX2Fj/YWRlbXlfbG9nby5z/dmc.svg",
+    img: "data:image/png;base64,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",
     role: "Virtual Intern",
     company: "Cisco",
     date: "2 Jun 2023",
@@ -412,7 +412,7 @@ export const projects = [
     description:
       "Developed a mobile application using React Native to facilitate job search and application processes for users. Integrated with a job search API from RapidAPI to provide real-time job listings and details.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+2024-03-17+160610.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B2024-03-17%2B160610.png",
     tags: [
       "React-Native",
       "Rapid API",
@@ -432,7 +432,7 @@ export const projects = [
     description:
       " Developed a real-time chat application using React JS for the frontend and Appwrite for the backend services. Appwrite was utilized for its robust authentication, database, and real-time capabilities, enabling seamless communication between users. The application allows users to send and receive messages instantly, with features such as message deletion and real-time updates",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+2024-03-17+161701.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B2024-03-17%2B161701.png",
     tags: [
       "React JS",
       "AppWrite",
@@ -449,7 +449,7 @@ export const projects = [
     description:
       "Developed a MERN stack Pizza delivery website with all basic features of a conventional e-commerce website like user authentication, Cart Page, Menu Page, Payment page. Orchestrated Pizza customization as a unique feature that leads to 25% increase in customer engagement. Collaborated with a team of four and sent daily reports, improving team efficiency by 20%",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+2024-03-17+171433.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B2024-03-17%2B171433.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
     category: "web app",
     github: "https://github.com/SuganthAmar/Pizza_delivery_MERN",
@@ -482,7 +482,7 @@ export const projects = [
     description:
       "Developed a comprehensive web application aimed at streamlining employee management tasks, including task assignment, progress tracking, and access control for both administrators and employees. Utilized modern web technologies to create an intuitive and efficient platform.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Emp-management.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Emp-management.png",
     tags: [
       "React Js",
       "Node Js",
@@ -504,7 +504,7 @@ export const projects = [
     description:
       "Orchestrated the deployment of a web application using Amazon Web Services (AWS) infrastructure. Leveraged Amazon EC2 instances for hosting the application, optimizing scalability and performance. Implemented infrastructure as code (IaC) principles using AWS CloudFormation to define and provision resources consistently and efficiently. Created custom Amazon Machine Images (AMIs) to encapsulate application configurations and dependencies, facilitating rapid deployment and consistency across environments. Configured a launch template to automate the provisioning of EC2 instances with predefined specifications, streamlining the deployment process. Established load balancing and auto-scaling capabilities using AWS Elastic Load Balancer (ELB) and Auto Scaling groups, ensuring high availability and fault tolerance. Integrated Amazon Route 53 for DNS management, providing a reliable and scalable domain name resolution service. Implemented monitoring and alerting using AWS CloudWatch, enabling proactive detection and resolution of performance issues. Collaborated with cross-functional teams to optimize infrastructure architecture, improve deployment workflows, and enhance system reliability. Documented deployment procedures and best practices for knowledge sharing and onboarding of new team members.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+(5).png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B(5).png",
     tags: ["AWS", "EC2", "RDS","Elastic Cache","Active MQ","Route 53","Cloud Front","AlmaLinux"],
     category: "devops",
     github: "https://github.com/SuganthAmar/vprofile-project",
@@ -517,7 +517,7 @@ export const projects = [
     description:
       "Developed a user-friendly library management web application enabling administrators to manage book inventory and users to explore, search, and access resources efficiently. Seamlessly integrated digital and physical book options to cater to diverse user preferences.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Lib-management.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Lib-management.png",
     tags: [
       "React Js",
     "Node Js",
@@ -539,7 +539,7 @@ export const projects = [
     description:
       "Developed a dynamic and user-friendly pizza ordering web application, providing customers with an interactive platform to customize and order their favorite pizzas online. Leveraged modern frontend technologies to create an intuitive and visually appealing user interface.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+2024-03-17+224613.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B2024-03-17%2B224613.png",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/SuganthAmar/Frontend_Pizza_Site",
@@ -552,7 +552,7 @@ export const projects = [
     description:
       "Developed a Python-based AI voice assistant inspired by fictional characters like Jarvis from Iron Man, aimed at providing users with a seamless and interactive virtual assistant experience. Leveraged natural language processing (NLP) and speech recognition technologies to enable voice-based interactions and perform various tasks efficiently.",
     image:
-      "https://suganth-projects.s3.amazonaws.com/Screenshot+2024-03-17+224316.png",
+      "https://suganth-portfolio.s3.us-east-1.amazonaws.com/Screenshot%2B2024-03-17%2B224316.png",
     tags: ["Python","skvideos","pyttsx3","NLTK","pywhatkit","datetime","smtplib "],
     category: "android app",
     github: "https://github.com/SuganthAmar/Python-Jarvis",
@@ -578,7 +578,7 @@ export const projects = [
     description:
       " A Todo Web App made with React JS, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://media.geeksforgeeks.org/wp-content/uploads/20230518223324/Screenshot-from-2023-05-18-22-33-11.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
     github: "https://github.com/rishavchanda/Todo-Web-App",
